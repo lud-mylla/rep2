@@ -3,8 +3,8 @@ class Agua:
         self.__mes = 1
         self.__ano = 2025
         self.__consumo = 0
-    def set_mes
-    def valor(self):
+    def set_mes(self):
+     def valor(self):
         if self.consumo <= 10: return 38
         if 11 <= self.consumo <= 20: return 38 + (self.consumo - 10) * 5
         if self.__consumo > 20: return 38 + 50 + (self.__consumo - 20) * 6  
@@ -46,3 +46,26 @@ class UI: # UI = User Interface: print e input
 #x = UI()
 #x.main()
 UI.main()
+
+#def__init__(self, destino: string, distancia: float, litros: float)
+# self.__destino = destino 
+# self.__distancia = distancia
+# self.__litros = litros
+
+# def get_destino(self):
+#  return self.__destino
+
+# def get_distancia(self):
+#   return self.__distancia
+
+#def get_litros(self):
+#  return self.__litros
+
+
+def set_destino(self,destino):
+    if destino:
+        self.__distancia > 0
+
+
+#
+# if litros == 0
